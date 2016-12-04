@@ -37,7 +37,7 @@ a:hover{
 	margin-right: 10px;
 }
 
-.nav-list li a:link{
+.nav-list li a{
 	color: purple;
 	text-decoration: none;
 }
