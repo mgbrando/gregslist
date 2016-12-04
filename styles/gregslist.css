@@ -10,6 +10,7 @@ a:hover{
 	width: 100%;
 	background-color: lightgray;
 	padding-left: 20px;
+	border-bottom: 1px solid gray;
 }
 .fixed-nav h1, .nav-list{
 	display: inline-block;
@@ -42,7 +43,7 @@ a:hover{
 	text-decoration: none;
 }
 main{
-	padding-top: 60px;
+	padding-top: 61px;
 	width: 80%;
 	margin: 0 auto;
 }
