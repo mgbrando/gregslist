@@ -1,0 +1,141 @@
+body{
+	margin: 0px;
+}
+a:hover{
+	cursor: pointer;
+}
+.fixed-nav{
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	background-color: lightgray;
+	padding-left: 20px;
+}
+.fixed-nav h1, .nav-list{
+	display: inline-block;
+	height: 1em;
+	margin: 18px 0;
+	font-size: 24px;
+}
+.fixed-nav h1{
+	height: 1em;
+	margin: 18px 0;
+	text-align: middle;
+}
+.nav-list{
+	list-style-type: none;
+	text-align: right;
+	position: absolute;
+	right: 20px;
+	padding: 0 20px;
+}
+.nav-list li{
+	display: inline-block;
+}
+
+.nav-list li:first-child{
+	margin-right: 10px;
+}
+
+.nav-list li a:link{
+	color: purple;
+	text-decoration: none;
+}
+main{
+	padding-top: 60px;
+	width: 80%;
+	margin: 0 auto;
+}
+.search, .page-navigation{
+	margin-top: 40px;
+}
+.search{
+	height: 34px;
+	/*position: relative;*/
+}
+.search-input, .mg-logo{
+	border: 1px solid lightgray;
+	border-radius: 5px;
+}
+.search-input{
+	width: 60%;
+	font-size: 18px;
+	height: 30px;
+	padding-left: 5px;
+	font-weight: bold;
+	/*position: absolute;
+	top: 0;*/
+}
+
+.mg-logo{
+	width: 32px;
+	height: 32px;
+	vertical-align: middle;
+	margin-top: -4px;
+}
+
+.page-navigation{
+	width: 60%;
+	height: 40px;
+	font-size: 0;
+	min-width: 220px;
+}
+.page-navigation div{
+	display: inline-block;
+	text-align: center;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	padding: 9px 0;
+	font-size: 18px;
+}
+.page-navigation div:nth-child(-n+2){
+	display: inline-block;
+	text-align: center;
+	border-right: none;
+	padding: 9px 0;
+}
+.page-navigation div:first-child{
+	border-radius: 5px 0 0 5px;
+}
+.page-navigation div:nth-child(2){
+	border-radius: 0;
+}
+.page-navigation div:last-child{
+	border-radius: 0 5px 5px 0;
+}
+.page-button{
+	width: 24%;
+}
+.page-button:hover{
+	cursor: pointer;
+}
+.page-display{
+	width: 50%;
+}
+.results{
+	margin-top: 50px;
+}
+.listings{
+	list-style-type: none;
+	padding-left: 0;
+}
+.listing{
+	margin-bottom: 12px;
+}
+.listing a{
+	text-decoration: none;
+	font-weight: bold;
+}
+.listing a:link{
+	color: blue;
+}
+.listing span{
+	color: gray;
+}
+.listing span:first-child{
+	margin-right: 12px;
+}
+.listing span:last-child{
+	margin-left: 12px;
+}
+
